@@ -1,0 +1,44 @@
+[
+    {
+        "model": "auth.group",
+        "pk": 1,
+        "fields": {
+            "name": "Klient"
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 2,
+        "fields": {
+            "name": "Pracownik"
+        }
+    },
+    {
+        "model": "auth.user_groups",
+        "fields": {
+            "user": 1,
+            "group": 1
+        }
+    },
+    {
+        "model": "auth.user_groups",
+        "fields": {
+            "user": 2,
+            "group": 1
+        }
+    },
+    {
+        "model": "auth.user_groups",
+        "fields": {
+            "user": 3,
+            "group": 1
+        }
+    },
+    {
+        "model": "auth.user_groups",
+        "fields": {
+            "user": 4,
+            "group": 2
+        }
+    }
+]

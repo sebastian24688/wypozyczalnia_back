@@ -1,0 +1,110 @@
+[
+    {
+        "model": "zarzadzanie_pojazdami.wypozyczenie",
+        "pk": 1,
+        "fields": {
+            "klient": 1,
+            "pojazd": 1,
+            "data_wypozyczenia": "2024-01-10",
+            "ilosc_dni": 5,
+            "status_wypozyczenia": "Zakończony",
+            "czy_oplacone": true
+        }
+    },
+    {
+        "model": "zarzadzanie_pojazdami.wypozyczenie",
+        "pk": 2,
+        "fields": {
+            "klient": 2,
+            "pojazd": 2,
+            "data_wypozyczenia": "2024-01-05",
+            "ilosc_dni": 3,
+            "status_wypozyczenia": "Zakończony",
+            "czy_oplacone": true
+        }
+    },
+    {
+        "model": "zarzadzanie_pojazdami.wypozyczenie",
+        "pk": 3,
+        "fields": {
+            "klient": 3,
+            "pojazd": 3,
+            "data_wypozyczenia": "2024-01-15",
+            "ilosc_dni": 7,
+            "status_wypozyczenia": "Zakończony",
+            "czy_oplacone": true
+        }
+    },
+    {
+        "model": "zarzadzanie_pojazdami.wypozyczenie",
+        "pk": 4,
+        "fields": {
+            "klient": 1,
+            "pojazd": 4,
+            "data_wypozyczenia": "2024-01-28",
+            "ilosc_dni": 4,
+            "status_wypozyczenia": "Wypożyczony",
+            "czy_oplacone": true
+        }
+    },
+    {
+        "model": "zarzadzanie_pojazdami.wypozyczenie",
+        "pk": 5,
+        "fields": {
+            "klient": 2,
+            "pojazd": 5,
+            "data_wypozyczenia": "2024-02-15",
+            "ilosc_dni": 4,
+            "status_wypozyczenia": "Rezerwacja",
+            "czy_oplacone": true
+        }
+    },
+    {
+        "model": "zarzadzanie_pojazdami.wypozyczenie",
+        "pk": 6,
+        "fields": {
+            "klient": 3,
+            "pojazd": 6,
+            "data_wypozyczenia": "2024-02-17",
+            "ilosc_dni": 8,
+            "status_wypozyczenia": "Rezerwacja",
+            "czy_oplacone": true
+        }
+    },
+    {
+        "model": "zarzadzanie_pojazdami.wypozyczenie",
+        "pk": 7,
+        "fields": {
+            "klient": 1,
+            "pojazd": 7,
+            "data_wypozyczenia": "2024-02-05",
+            "ilosc_dni": 5,
+            "status_wypozyczenia": "Rezerwacja",
+            "czy_oplacone": true
+        }
+    },
+    {
+        "model": "zarzadzanie_pojazdami.wypozyczenie",
+        "pk": 8,
+        "fields": {
+            "klient": 2,
+            "pojazd": 8,
+            "data_wypozyczenia": "2024-03-01",
+            "ilosc_dni": 2,
+            "status_wypozyczenia": "Rezerwacja",
+            "czy_oplacone": true
+        }
+    },
+    {
+        "model": "zarzadzanie_pojazdami.wypozyczenie",
+        "pk": 9,
+        "fields": {
+            "klient": 3,
+            "pojazd": 9,
+            "data_wypozyczenia": "2024-02-26",
+            "ilosc_dni": 5,
+            "status_wypozyczenia": "Rezerwacja",
+            "czy_oplacone": false
+        }
+    }
+]
